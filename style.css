@@ -206,3 +206,35 @@ body {
   font-size: var(--fs-header-secondary);
   font-weight: 900;
 }
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  background: var(--clr-action);
+  border-radius: 8px;
+  margin: 5rem 8rem;
+  padding: 3rem 4rem;
+  color: var(--clr-quote);
+}
+
+.action-header {
+  font-weight: 900;
+}
+
+.action-button {
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  border-color: var(--clr-quote);
+  background: var(--clr-action);
+  color: var(--clr-quote);
+  border-style: solid;
+  align-self: center;
+}
+
+.footer {
+  background: var(--clr-background-dark);
+  color: var(--clr-quote);
+  text-align: center;
+  padding: 2rem;
+}
